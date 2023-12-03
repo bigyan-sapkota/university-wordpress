@@ -1,3 +1,10 @@
 <!-- Use get_header() for getting the header -->
 
-<h1>Greetings from Header.php</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <?php wp_head(); ?>
+    </head>
+    <body>
+        <h1>Fictional University</h1>
+    
